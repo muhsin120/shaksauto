@@ -18,14 +18,14 @@ export default function Header() {
           <Link href="/contact" className="mx-4 hover:text-teal-400">
             Contact
           </Link>
-          <a
+          {/* <a
             href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-4 hover:text-teal-400"
           >
             Instagram
-          </a>
+          </a> */}
         </nav>
       </div>
     </header>
