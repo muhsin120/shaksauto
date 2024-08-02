@@ -1,14 +1,14 @@
 // src/components/Header.tsx
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-gray-800 text-gray-200 py-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold text-teal-400">
+    <div className="bg-gray-800 text-gray-200 py-[1.5rem] px-[4rem]">
+      <div className=" flex  justify-between items-center">
+        <Link href="/" className=" font-poppins text-2xl font-bold text-teal-400">
           Shaks Auto Detailing
         </Link>
-        <nav>
+        <div className="font-poppins">
           <Link href="/" className="mx-4 hover:text-teal-400">
             Home
           </Link>
@@ -18,16 +18,8 @@ export default function Header() {
           <Link href="/contact" className="mx-4 hover:text-teal-400">
             Contact
           </Link>
-          {/* <a
-            href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mx-4 hover:text-teal-400"
-          >
-            Instagram
-          </a> */}
-        </nav>
+        </div>
       </div>
-    </header>
+    </div>
   );
 }

@@ -1,24 +1,12 @@
 // src/app/page.tsx
 import Image from "next/image";
 import Link from "next/link";
+import SectionOne from "./_components/SectionOne";
 
 export default function Home() {
   return (
-    <div className="px-4">
-      <h1 className="text-5xl font-bold mb-8 text-center">
-        Welcome to Shaks Auto Detailing
-      </h1>
-      <section className="text-center mb-12">
-        <p className="text-xl mb-6">
-          We provide top-notch car detailing services to make your vehicle look
-          brand new.
-        </p>
-        <p className="text-lg">
-          At Shaks Auto Detailing, we pride ourselves on delivering exceptional
-          quality and service. Our experienced team uses the best products and
-          techniques to ensure your car receives the care it deserves.
-        </p>
-      </section>
+    <div className="">
+      <SectionOne/>
 
       <section className="mb-12">
         <h2 className="text-4xl font-bold text-center mb-8 text-teal-400">
