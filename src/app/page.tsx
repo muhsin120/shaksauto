@@ -27,7 +27,7 @@ const datas = [
     ],
   },
 ];
-export default function Home() {
+const page = () => {
   return (
     <div className="">
       <SectionOne />
@@ -52,7 +52,7 @@ export default function Home() {
               stunning results without harming your vehicle or the environment.
             </p>
             <div className="md:flex justify-center hidden pt-[2rem]">
-              <Link href='/about'>
+              <Link href="/about">
                 <ButtonAnimation className="rounded-2xl bg-darkOrange hover:bg-white ">
                   <p className="text-white hover:text-darkOrange font-bold px-[1rem] py-[0.8rem]">
                     Know more {">>"}
@@ -63,14 +63,14 @@ export default function Home() {
           </div>
           <Image src={Choose} alt="" className="rounded-2xl md:w-[40%]" />
           <div className="flex justify-center md:hidden ~pt-[1rem]/[2rem]">
-              <Link href='/about'>
-                <ButtonAnimation className="rounded-2xl bg-darkOrange hover:bg-white ">
-                  <p className="text-white text-body-medium hover:text-darkOrange font-bold px-[1rem] py-[0.8rem]">
-                    Know more {">>"}
-                  </p>
-                </ButtonAnimation>
-              </Link>
-            </div>
+            <Link href="/about">
+              <ButtonAnimation className="rounded-2xl bg-darkOrange hover:bg-white ">
+                <p className="text-white text-body-medium hover:text-darkOrange font-bold px-[1rem] py-[0.8rem]">
+                  Know more {">>"}
+                </p>
+              </ButtonAnimation>
+            </Link>
+          </div>
         </div>
       </div>
       <div className="~pb-[2rem]/[3rem] ~pt-0/[3rem]">
@@ -88,7 +88,7 @@ export default function Home() {
           ))}
         </div>
         <div className="flex justify-center  py-[2rem]">
-          <Link href='/services'>
+          <Link href="/services">
             <ButtonAnimation className="rounded-2xl bg-darkOrange hover:bg-white ">
               <p className="text-white text-body-medium font-poppins hover:text-darkOrange font-bold ~px-[1.5rem]/[2rem] ~py-[0.6rem]/[0.8rem]">
                 Explore All {">>"}
@@ -99,4 +99,5 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+export default page;
