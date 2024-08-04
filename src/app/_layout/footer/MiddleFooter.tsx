@@ -16,9 +16,9 @@ const MiddleFooter = () => {
                         </h1>
                     </div>
                     <div className="flex flex-col  items-center pt-[0.62rem] md:block ">
-                        <Link prefetch={false} href={'mailto:shaksautodetailing@gmail.com'}>
+                        <Link prefetch={false} href={'mailto:Info@shaksautodetailinghalifax.ca'}>
                             <div className="font-poppins font-normal pt-[0.62rem] ~text-body-medium/desktop-body hover:underline">
-                                shaksautodetailing@gmail.com
+                            Info@shaksautodetailinghalifax.ca
                             </div>
                         </Link>
                     </div>
@@ -40,15 +40,15 @@ const MiddleFooter = () => {
                         </div>
                         <div className="flex ">
                             <ButtonAnimation>
-                                <Link href="">
+                                <Link href="https://www.instagram.com/auto_detailing_halifax?igsh=MTB1MmlndDd6aXBiMQ==">
                                     <Instagram className="!size-[1.3rem]"/>
                                 </Link>
                             </ButtonAnimation>
                         </div>
                         <div className="flex ">
                             <ButtonAnimation>
-                            {/* https://api.whatsapp.com/send?phone=+9710502686859&text=Hi. */}
-                                <Link href="">
+                            
+                                <Link href="https://api.whatsapp.com/send?phone=+19099009439&text=Hi.">
                                     <Whatsapp className="!size-[1.3rem]" />
                                 </Link>
                             </ButtonAnimation>

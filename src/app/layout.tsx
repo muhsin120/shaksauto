@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${poppins.variable}`}>
+      <body className={`${inter.className} ${poppins.variable} overflow-x-hidden`}>
         <Header />
         {children}
         <FooterSection />
