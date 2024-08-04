@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import BgImage from "../../../public/images/carBg.jpg";
 import { ButtonAnimation } from "@/components/ButtonAnimation";
+import Link from "next/link";
 const SectionOne = () => {
   return (
     <div className="relative flex justify-center items-center h-[85dvh] w-full">
@@ -19,11 +20,13 @@ const SectionOne = () => {
         <div className="~text-body-medium/small-screen ">
           We provide top-notch car detailing services
         </div>
-        <ButtonAnimation className=" rounded-2xl bg-darkOrange mt-[1.5rem] hover:bg-white">
-          <div className="py-[0.5rem] px-[1rem] text-body-medium text-white font-bold hover:text-darkOrange">
-            Book Now
-          </div>
-        </ButtonAnimation>
+        <Link href="tel:+19099009439" >
+          <ButtonAnimation className=" rounded-2xl bg-darkOrange mt-[1.5rem] hover:bg-white">
+            <div className="py-[0.5rem] px-[1rem] text-body-medium text-white font-bold hover:text-darkOrange">
+              Book Now
+            </div>
+          </ButtonAnimation>
+        </Link>
       </div>
     </div>
   );

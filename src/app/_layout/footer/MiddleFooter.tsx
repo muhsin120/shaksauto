@@ -33,13 +33,6 @@ const MiddleFooter = () => {
                     <div className=" flex justify-center gap-[2.4rem] pt-[1.25rem] md:justify-between">
                         <div className="flex ">
                             <ButtonAnimation>
-                                <Link href="">
-                                    <Linkedin className="!size-[1.3rem]"/>
-                                </Link>
-                            </ButtonAnimation>
-                        </div>
-                        <div className="flex ">
-                            <ButtonAnimation>
                                 <Link href="https://www.instagram.com/auto_detailing_halifax?igsh=MTB1MmlndDd6aXBiMQ==">
                                     <Instagram className="!size-[1.3rem]"/>
                                 </Link>
@@ -47,7 +40,6 @@ const MiddleFooter = () => {
                         </div>
                         <div className="flex ">
                             <ButtonAnimation>
-                            
                                 <Link href="https://api.whatsapp.com/send?phone=+19099009439&text=Hi.">
                                     <Whatsapp className="!size-[1.3rem]" />
                                 </Link>
@@ -55,7 +47,7 @@ const MiddleFooter = () => {
                         </div>
                         <div className="flex ">
                             <ButtonAnimation>
-                                <Link href="tel:+00000000">
+                                <Link href="tel:+19099009439">
                                     <Call className="!size-[1.3em]" />
                                 </Link>
                             </ButtonAnimation>
@@ -70,17 +62,6 @@ const MiddleFooter = () => {
                         <p className="font-poppins ~text-body-medium/desktop-body">Halifax, Canada</p>
                         <p className="font-poppins ~text-body-medium/desktop-body "> </p>
                         <div className="flex items-center justify-center gap-[0.5rem] md:justify-start">
-                            {/* <Link href="">
-                                <h2 className="font-poppins ~text-body-medium/desktop-body hover:underline">Canada</h2>
-                            </Link> */}
-                            {/* <div className="h-[1rem] w-[0.1rem] bg-white md:h-[1.2rem]"></div>
-                            <Link href="">
-                                <h2 className="font-poppins ~text-body-medium/desktop-body hover:underline"> Canada</h2>
-                            </Link>
-                            <div className="h-[1rem] w-[0.1rem] bg-white md:h-[1.2rem]"></div>
-                            <Link href="">
-                                <h2 className="font-poppins ~text-body-medium/desktop-body hover:underline">Canada</h2>
-                            </Link> */}
                         </div>
                     </div>
                 </div>
