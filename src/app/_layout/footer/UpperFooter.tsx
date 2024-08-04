@@ -32,7 +32,7 @@ const UpperFooter = () => {
                     <ButtonAnimation key={i}>
                         <li
                             key={i}
-                        className="mx-3 pt-[1rem] font-poppins text-small-footer-menu text-white hover:text-darkOrange hover:underline md:text-title-large"
+                        className="mx-3 pt-[1rem] font-poppins text-label-footer text-white hover:text-darkOrange hover:underline md:text-title-large"
                         >
                             <Link prefetch={false} href={footer.Link}>
                                 {footer.Name}

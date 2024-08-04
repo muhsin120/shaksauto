@@ -3,51 +3,46 @@ import Image from "next/image";
 import EnvelopeSolid from "../../../public/svg/email.svg";
 import LocationDotSolid from "../../../public/svg/address.svg";
 import PhoneSolid from "../../../public/svg/phone.svg";
-import BgImage from "../../../public/images/contactBg.jpg";
+import BgImage from "../../../public/images/wash2.jpg";
 
 const page = () => {
   return (
     <div className="relative z-[10rem] flex h-[90vh] items-center justify-center">
       <Image src={BgImage} alt="Bg-Image" fill className="object-cover" />
-      <div className="from-1% to-99% absolute inset-0  z-[1] bg-gradient-to-t from-[#000000ba] to-transparent opacity-50"></div>
+      <div className="from-1% to-99% absolute inset-0  z-[1] bg-gradient-to-t from-[#000000] to-transparent opacity-50"></div>
       <div className="relative flex flex-col items-center justify-center gap-[2.25rem] text-left">
-        <h2 className="text-global-font-h7 font-bold text-white">CONTACT US</h2>
+        <h2 className="~text-case-study-title/display-hero text-darkOrange font-poppins font-bold ">Contact Us</h2>
         <div className="text-global-font-tab-text2 text-white text-center">
-          <p>
-            Problems trying to resolve the conflict between the two major realms
-            of Classical physics:
-          </p>
-          <p>
-            Newtonian mechanics resolve the conflict between the two major
-            realms of Classical physics
-          </p>
+          {/* <p>
+          Visit us today and experience the difference.
+          </p> */}
         </div>
-        <div className="flex items-center justify-center gap-[2rem]  bg-gradient-to-b from-slate-50/65 border-2 to-cyan-200/55 p-10 rounded-xl">
-          <div className="flex items-center justify-center gap-[0.5rem]">
-            <div className="flex size-[2.5rem] items-center justify-center rounded-full bg-white">
+        <div className="flex flex-col  md:flex-row md:items-center justify-center ~gap-[1.5rem]/[2rem] border-2 bg-white ~p-[1.2rem]/[2.5rem] rounded-xl">
+          <div className="flex items-center md:justify-center gap-[1rem]">
+            <div className="flex  items-center justify-center rounded-full bg-white">
               <EnvelopeSolid className="size-[1.5rem]" />
             </div>
-            <div className="flex flex-col items-center justify-center">
-              <h2 className="text-global-font-mob-h2 font-bold">ADDRESS</h2>
-              <h2>1908, 19th Floor, Prism Tower, Business Bay</h2>
+            <div className="flex flex-col items-center justify-center w-full">
+              <h2 className="text-title-medium font-poppins text-darkBlue font-bold">ADDRESS</h2>
+              <h2 className="text-title-small font-poppins"> Canada</h2>
             </div>
           </div>
-          <div className="flex items-center justify-center gap-[0.5rem]">
-            <div className="flex size-[2.5rem] items-center justify-center rounded-full bg-white">
+          <div className="flex items-center md:justify-center gap-[1rem]">
+            <div className="flex  items-center justify-center rounded-full bg-white">
               <PhoneSolid className="size-[1.5rem]" />
             </div>
-            <div className="flex flex-col items-center justify-center">
-              <h2 className="text-global-font-mob-h2 font-bold">CALL</h2>
-              <h2> +971 562315481</h2>
+            <div className="flex flex-col items-center justify-center w-full ">
+              <h2 className="text-title-medium font-poppins  text-darkBlue font-bold">CALL</h2>
+              <h2 className="text-title-small font-poppins"> +971 000000</h2>
             </div>
           </div>
-          <div className="flex items-center justify-center gap-[0.5rem]">
-            <div className="flex size-[2.5rem] items-center justify-center rounded-full bg-white">
+          <div className="flex items-center md:justify-center gap-[1rem]">
+            <div className="flex  items-center justify-center rounded-full bg-white">
               <LocationDotSolid className="size-[1.5rem]" />
             </div>
-            <div className="flex flex-col items-center justify-center">
-              <h2 className="text-global-font-mob-h2 font-bold">EMAIL</h2>
-              <h2> Thania@ecommerce.com</h2>
+            <div className="flex flex-col items-center justify-center w-full" >
+              <h2 className="text-title-medium font-poppins text-darkBlue font-bold">EMAIL</h2>
+              <h2 className="text-title-small font-poppins"> shaksautodetailing@gmail.com</h2>
             </div>
           </div>
         </div>

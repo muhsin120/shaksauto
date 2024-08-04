@@ -4,42 +4,42 @@ import Service from "../_components/Service";
 export default function Services() {
   const datas = [
     {
-      type: "Basic",
-      price: 99,
+      type: "Bronze",
+      price: 50,
       points: [
         { point: "Vacuum & Dust Interior" },
-        { point: "Vacuum & Dust Interior" },
-        { point: "Vacuum & Dust Interior" },
-        { point: "Vacuum & Dust Interior" },
+        { point: "Clean Windows" },
+        { point: "Air freshner (optional) " },
+        { point: "Remove all garbages" },
       ],
     },
     {
-      type: "Basic",
-      price: 99,
+      type: "Gold",
+      price: 70,
       points: [
-        { point: "Vacuum & Dust Interior" },
-        { point: "Vacuum & Dust Interior" },
-        { point: "Vacuum & Dust Interior" },
-        { point: "Vacuum & Dust Interior" },
+        { point: "Everything on Bronze package" },
+        { point: "Floor & carpet shampoo" },
+        { point: "Steam cleaning air vents" },
+        // { point: "Vacuum & Dust Interior" },
       ],
     },
     {
-      type: "Basic",
-      price: 99,
+      type: "Platinum",
+      price: 90,
       points: [
-        { point: "Vacuum & Dust Interior" },
-        { point: "Vacuum & Dust Interior" },
-        { point: "Vacuum & Dust Interior" },
-        { point: "Vacuum & Dust Interior" },
+        { point: "Everything on Gold package" },
+        { point: "Seat shampoo" },
+        { point: "Clean door jamps" },
+        // { point: "Vacuum & Dust Interior" },
       ],
     },
   ];
   return (
-    <div id="services" className="pt-[5rem] pb-[7rem]">
-      <h2 className=" font-bold text-center py-[3rem] font-poppins text-display-large text-darkBlue">
+    <div id="services" className="~pt-[2rem]/[5rem] pb-[7rem]">
+      <h2 className=" font-bold text-center py-[3rem] font-poppins ~text-display-small/display-large text-darkBlue">
         Our Services
       </h2>
-      <div className="flex gap-[3rem] justify-center">
+      <div className="flex flex-col items-center md:flex-row gap-[3rem] justify-center">
         {datas.map((item, i) => (
           <Service key={i} points={item.points}  type={item.type} price={item.price}/>
         ))}

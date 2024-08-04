@@ -27,7 +27,7 @@ const config: Config = {
       backgroundImage: {
         darkGreen: "#1C3732",
         darkYellow: "#f8b904",
-        darkOrange: "#f46813",
+        darkOrange: "#b91c1c",
         darkBlue: "#0e162f",
         navy: "#045b62",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -39,7 +39,7 @@ const config: Config = {
         darkBlue: "#0e162f",
         darkYellow: "#f8b904",
         darkGreen: "#1C3732",
-        darkOrange: "#f46813",
+        darkOrange: "#b91c1c",
       },
       fontFamily: {
         nunito: "var(--nunito)",
