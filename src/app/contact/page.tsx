@@ -23,7 +23,7 @@ const page = () => {
               <h2 className="text-title-medium font-poppins text-darkBlue font-bold">
                 ADDRESS
               </h2>
-              <h2 className="text-title-small font-poppins"> Canada</h2>
+              <h2 className="text-title-small font-poppins">Halifax, Canada</h2>
             </div>
           </div>
           <div className="flex items-center md:justify-center gap-[1rem]">
@@ -46,7 +46,6 @@ const page = () => {
                 EMAIL
               </h2>
               <h2 className="text-title-small font-poppins">
-                
                 Info@shaksautodetailinghalifax.ca
               </h2>
             </div>

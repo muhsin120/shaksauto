@@ -67,20 +67,20 @@ const MiddleFooter = () => {
                         <h1 className="font-poppins font-medium text-small-footer-menu md:text-heading-footer">Our Location</h1>
                     </div>
                     <div className="flex flex-col px-[2.5rem] pt-[1.25rem] text-center  md:block md:w-auto  md:items-center md:px-0  lg:text-start">
-                        <p className="font-poppins ~text-body-medium/desktop-body">Shak &apos;s Auto Detailing, Canada</p>
+                        <p className="font-poppins ~text-body-medium/desktop-body">Halifax, Canada</p>
                         <p className="font-poppins ~text-body-medium/desktop-body "> </p>
                         <div className="flex items-center justify-center gap-[0.5rem] md:justify-start">
-                            <Link href="">
+                            {/* <Link href="">
                                 <h2 className="font-poppins ~text-body-medium/desktop-body hover:underline">Canada</h2>
-                            </Link>
-                            <div className="h-[1rem] w-[0.1rem] bg-white md:h-[1.2rem]"></div>
+                            </Link> */}
+                            {/* <div className="h-[1rem] w-[0.1rem] bg-white md:h-[1.2rem]"></div>
                             <Link href="">
                                 <h2 className="font-poppins ~text-body-medium/desktop-body hover:underline"> Canada</h2>
                             </Link>
                             <div className="h-[1rem] w-[0.1rem] bg-white md:h-[1.2rem]"></div>
                             <Link href="">
                                 <h2 className="font-poppins ~text-body-medium/desktop-body hover:underline">Canada</h2>
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                 </div>
