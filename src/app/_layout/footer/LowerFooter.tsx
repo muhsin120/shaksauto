@@ -11,7 +11,7 @@ const LowerFooter = () => {
             target="_blank"
             href={"http://urbanhubinnovations.com/?ref=alwaha"}
           >
-            Mishkath
+            Mishkath&Muhsin
           </Link>
         </h2>
       </div>
