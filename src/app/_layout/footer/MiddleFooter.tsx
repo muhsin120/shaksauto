@@ -59,7 +59,7 @@ const MiddleFooter = () => {
                         <h1 className="font-poppins font-medium text-small-footer-menu md:text-heading-footer">Our Location</h1>
                     </div>
                     <div className="flex flex-col px-[2.5rem] pt-[1.25rem] text-center  md:block md:w-auto  md:items-center md:px-0  lg:text-start">
-                        <p className="font-poppins ~text-body-medium/desktop-body">Halifax, Canada</p>
+                        <p className="font-poppins ~text-body-medium/desktop-body">Halifax, Dartmouth, Canada</p>
                         <p className="font-poppins ~text-body-medium/desktop-body "> </p>
                         <div className="flex items-center justify-center gap-[0.5rem] md:justify-start">
                         </div>
