@@ -17,7 +17,7 @@ const page = () => {
         <div className="flex flex-col  md:flex-row md:items-center justify-center ~gap-[1.5rem]/[2rem] border-2 bg-white ~p-[0.5rem]/[2.5rem] rounded-xl">
           <div className="flex items-center md:justify-center gap-[1rem]">
             <div className="flex  items-center justify-center rounded-full bg-white">
-              <EnvelopeSolid className="size-[1.5rem]" />
+              <LocationDotSolid className="size-[1.5rem]" />
             </div>
             <div className="flex flex-col items-center justify-center w-full">
               <h2 className="text-title-medium font-poppins text-darkBlue font-bold">
@@ -34,12 +34,15 @@ const page = () => {
               <h2 className="text-title-medium font-poppins  text-darkBlue font-bold">
                 CALL
               </h2>
-              <h2 className="text-title-small font-poppins"> +1 909 900 9439</h2>
+              <h2 className="text-title-small font-poppins">
+                {" "}
+                +1 909 900 9439
+              </h2>
             </div>
           </div>
           <div className="flex items-center md:justify-center gap-[1rem]">
             <div className="flex  items-center justify-center rounded-full bg-white">
-              <LocationDotSolid className="size-[1.5rem]" />
+              <EnvelopeSolid className="size-[1.5rem]" />
             </div>
             <div className="flex flex-col items-center justify-center w-full">
               <h2 className="text-title-medium font-poppins text-darkBlue font-bold">
