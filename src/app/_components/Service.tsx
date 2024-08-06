@@ -35,7 +35,7 @@ const Service = ({ type, price, points }: Props) => {
         </div>
       </div>
       <div className="absolute bottom-5 inset-x-0 flex justify-center ">
-        <Link href="tel:+19099009439">
+        <Link href="tel:+19029009432">
           <ButtonAnimation className="rounded-2xl bg-[#f46813] group-hover:bg-white ">
             <p className="px-[1rem] py-[0.5rem] text-body-medium text-white group-hover:text-darkBlue font-poppins font-bold">
               Book Now

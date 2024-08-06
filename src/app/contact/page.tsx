@@ -36,7 +36,7 @@ const page = () => {
               </h2>
               <h2 className="text-title-small font-poppins">
                 {" "}
-                +1 909 900 9439
+                +1 902 900 9432
               </h2>
             </div>
           </div>

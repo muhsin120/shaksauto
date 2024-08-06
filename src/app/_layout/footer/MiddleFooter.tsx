@@ -40,14 +40,14 @@ const MiddleFooter = () => {
                         </div>
                         <div className="flex ">
                             <ButtonAnimation>
-                                <Link href="https://api.whatsapp.com/send?phone=+19099009439&text=Hi.">
+                                <Link href="https://api.whatsapp.com/send?phone=+19029009432&text=Hi.">
                                     <Whatsapp className="!size-[1.3rem]" />
                                 </Link>
                             </ButtonAnimation>
                         </div>
                         <div className="flex ">
                             <ButtonAnimation>
-                                <Link href="tel:+19099009439">
+                                <Link href="tel:+19029009432">
                                     <Call className="!size-[1.3em]" />
                                 </Link>
                             </ButtonAnimation>
