@@ -9,7 +9,7 @@ const LowerFooter = () => {
           <Link
             className="font-semibold"
             target="_blank"
-            href={"http://urbanhubinnovations.com/?ref=alwaha"}
+            href={"#"}
           >
             Mishkath&Muhsin
           </Link>
