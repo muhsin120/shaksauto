@@ -11,7 +11,7 @@ const LowerFooter = () => {
             target="_blank"
             href={"#"}
           >
-            Mishkath&Muhsin
+            Muhsin
           </Link>
         </h2>
       </div>
