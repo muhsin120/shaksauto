@@ -21,7 +21,7 @@ const page = () => {
           <p>
             Welcome to Shaks Auto Detailing! Were passionate about bringing your
             car back to its prime condition with our expert detailing services.
-            Located in the heart of Kerala, we take pride in transforming your
+            Located in the heart of Novascotia, we take pride in transforming your
             vehicle into a spotless, fresh, and immaculate ride. Our passion for
             perfection drives us to provide top-notch cleaning and detailing
             that goes beyond just the surface. We understand that every car has
