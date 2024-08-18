@@ -8,7 +8,7 @@ import { ButtonAnimation } from "@/components/ButtonAnimation";
 const datas = [
   {
     type: "Bronze",
-    price: 50,
+    price: 70,
     points: [
       { point: "Vacuum & Dust Interior" },
       { point: "Clean Windows" },
@@ -18,7 +18,7 @@ const datas = [
   },
   {
     type: "Gold",
-    price: 70,
+    price: 90,
     points: [
       { point: "Everything on Bronze package" },
       { point: "Floor & carpet shampoo" },
