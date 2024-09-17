@@ -5,7 +5,7 @@ export default function Services() {
   const datas = [
     {
       type: "Bronze",
-      //price: 70,
+      price: 70,
       points: [
         { point: "Vacuum & Dust Interior" },
         { point: "Clean Windows" },
@@ -15,7 +15,7 @@ export default function Services() {
     },
     {
       type: "Gold",
-      //price:90,
+      price:90,
       points: [
         { point: "Everything on Bronze package" },
         { point: "Floor & carpet shampoo" },
@@ -25,7 +25,7 @@ export default function Services() {
     },
     {
       type: "Platinum",
-      //price:110,
+      price:110,
       points: [
         { point: "Everything on Gold package" },
         { point: "Seat shampoo" },
