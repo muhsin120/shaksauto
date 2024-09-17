@@ -6,17 +6,19 @@ import Link from "next/link";
 
 type Props = {
   type: string;
-  //price: number;
+  price: number;
   points: any;
 };
-const Service = ({ type, points }: Props) => {
+const Service = ({ type, price, points }: Props) => {
   return (
     <div className="~pt-[1.5rem]/[2.5rem] relative ~pb-[1.5rem]/[3rem] ~px-[2.4rem]/[2.688rem] group rounded-3xl shadow-2xl ~w-[17rem]/[22rem] hover:scale-105 transition-all duration-500 bg-white hover:bg-[#f46813]">
       <div className=" text-center ~text-headline-medium/display-hero font-bold font-poppins text-[#f46813] group-hover:text-white">
         {type}
       </div>
       <div className="~pt-[1rem]/[1.5rem] ~pb-[3rem]/[2.5rem]">
-        
+        <h2 className="~text-headline-large/display-medium font-bold font-poppins text-darkBlue  font-CircularBold">
+           $ {price}
+        </h2>
         <h3 className="~text-title-small/title-medium font-poppins font-medium pt-[0.5rem] text-darkBlue font-CircularBold group-hover:text-white">
           Whats included
         </h3>
