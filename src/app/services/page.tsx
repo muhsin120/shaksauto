@@ -5,7 +5,7 @@ export default function Services() {
   const datas = [
     {
       type: "Bronze",
-      price: 70,
+      //price: 70,
       points: [
         { point: "Vacuum & Dust Interior" },
         { point: "Clean Windows" },
@@ -15,7 +15,7 @@ export default function Services() {
     },
     {
       type: "Gold",
-      price:90,
+      //price:90,
       points: [
         { point: "Everything on Bronze package" },
         { point: "Floor & carpet shampoo" },
@@ -25,7 +25,7 @@ export default function Services() {
     },
     {
       type: "Platinum",
-      price:111,
+      //price:111,
       points: [
         { point: "Everything on Gold package" },
         { point: "Seat shampoo" },
@@ -41,7 +41,7 @@ export default function Services() {
       </h2>
       <div className="flex flex-col items-center md:flex-row gap-[3rem] justify-center">
         {datas.map((item, i) => (
-          <Service key={i} points={item.points}  type={item.type} price={item.price}/>
+          <Service key={i} points={item.points}  type={item.type} />
         ))}
       </div>
       {/* <div className="flex flex-col items-center justify-center space-y-8 sm:flex-row sm:space-y-0 sm:space-x-8">
