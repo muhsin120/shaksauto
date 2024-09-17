@@ -41,7 +41,7 @@ export default function Services() {
       </h2>
       <div className="flex flex-col items-center md:flex-row gap-[3rem] justify-center">
         {datas.map((item, i) => (
-          <Service key={i} points={item.points}  type={item.type} price={item.price}/>
+          <Service key={i} points={item.points}  type={item.type}/>
         ))}
       </div>
       {/* <div className="flex flex-col items-center justify-center space-y-8 sm:flex-row sm:space-y-0 sm:space-x-8">
