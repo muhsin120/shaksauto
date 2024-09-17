@@ -25,7 +25,7 @@ export default function Services() {
     },
     {
       type: "Platinum",
-      price:110,
+      price:111,
       points: [
         { point: "Everything on Gold package" },
         { point: "Seat shampoo" },
