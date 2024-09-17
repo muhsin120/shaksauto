@@ -17,7 +17,7 @@ const Service = ({ type, price, points }: Props) => {
       </div>
       <div className="~pt-[1rem]/[1.5rem] ~pb-[3rem]/[2.5rem]">
         <h2 className="~text-headline-large/display-medium font-bold font-poppins text-darkBlue  font-CircularBold">
-          $ {price}
+           {price}
         </h2>
         <h3 className="~text-title-small/title-medium font-poppins font-medium pt-[0.5rem] text-darkBlue font-CircularBold group-hover:text-white">
           Whats included
