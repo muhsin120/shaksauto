@@ -33,7 +33,7 @@ const MiddleFooter = () => {
                     <div className=" flex justify-center gap-[2.4rem] pt-[1.25rem] md:justify-between">
                         <div className="flex ">
                             <ButtonAnimation>
-                                <Link href="https://www.instagram.com/auto_detailing_halifax?igsh=MTB1MmlndDd6aXBiMQ==">
+                                <Link href="https://www.instagram.com/shaks_auto_detailing_halifax?igsh=MTB1MmlndDd6aXBiMQ==">
                                     <Instagram className="!size-[1.3rem]"/>
                                 </Link>
                             </ButtonAnimation>
